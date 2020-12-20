@@ -1,0 +1,29 @@
+.hero-container {
+  background: url('HeroPage.jpg') center center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+
+  z-index: 9;
+}
+
+.centarHero {
+  position: relative;
+  z-index: 99;
+  top: 20%;
+  color: rgb(255, 249, 249);
+}
+.heroItem {
+  opacity: 0.8;
+}
+.heroTitle {
+  font-family: 'Permanent Marker', cursive;
+}
+
+@media screen and (max-width: 800px) {
+  .heroItem {
+    height: 250px;
+  }
+}
